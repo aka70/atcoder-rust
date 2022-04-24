@@ -33,3 +33,23 @@ fn main() {
 }
 
 ```
+
+## 正規表現
+
+```rust
+use regex::Regex;
+
+fn main() {
+    let s = 'dreamer'
+    let ans = if Regex::new(r"^(dream|dreamer|erase|eraser)*$")
+        .unwrap()
+        .is_match(&s)
+    {
+        "YES"
+    } else {
+        "NO"
+    };
+
+    println!("{}", ans);
+}
+```
