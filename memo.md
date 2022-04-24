@@ -4,6 +4,7 @@
 
 [dependencies]
 proconio = "0.4.3"
+regex = "1.5.5"
 
 ```rust
 use proconio;
