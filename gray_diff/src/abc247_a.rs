@@ -1,7 +1,7 @@
 use proconio;
 
 fn main() {
-  proconio::input! {
+    proconio::input! {
       s: String,
     }
 
