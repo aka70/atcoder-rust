@@ -13,4 +13,7 @@ regex = "1.5.5"
 [[bin]]
 name = "abc249_a"
 path = "src/abc249_a.rs"
-    
+
+[[bin]]
+name = "abc247_a"
+path = "src/abc247_a.rs"
